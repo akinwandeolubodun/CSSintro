@@ -1,0 +1,113 @@
+/* 
+
+Selector {
+    (Properties = Things we want to modify): value(specific instructions on how to modify it):
+    color
+}
+*/
+/* Element wide selectors */
+/* write out the name of html element that you want to follow to folow a set of rules */
+
+h1 {
+    color:red;
+    font-size: 50px;
+}
+
+/* Class-level Selectors */
+
+.blueElements {
+    color:blue;
+    font-size: 20px;
+}
+
+/* Id-level Selectors */
+
+#monday {
+    color: green;
+}
+
+/* Change the color whenever we over over a link with the class .nowhere */
+
+p.nowhere:hover {
+    font-family: fantasy;
+}
+
+a.nowhere {
+    font-family:cursive ;
+}
+
+a.nowhere:hover {
+    color: brown;
+    background-color: aqua;
+}
+
+a.nowhere:active {
+    color: red;
+}
+
+a.nowhere {
+    background-color: azure;
+}
+
+
+.big-text {
+    font-weight:bold;
+    font-size:48px;
+    color:yellow;
+    padding:16px;
+    font-size:20px;
+}
+
+/* target all elements (li) listed in another element (ul) we use the following syntax */
+
+ul li {
+    color: rgba(244, 165, 96, 0.623);
+}
+
+/* Give rules to different elements in the same Selector */
+
+li, p {
+    font-size: 28px;
+}
+
+/* Ways to color our HTML elements with css */
+/* Preset colors */
+
+h2 {
+    /* Preset colors */
+    color: crimson;
+
+    /* RGB(A) Values */
+    color: rgb(58, 65, 52);
+
+    /* Hexadecimal */
+    color: #e3e4d663;
+}
+
+#BoxModel {
+    font-size: 30px;
+    background-color: blue;
+    /* Manipulate width of the content itself */
+    width: 200px;
+    height: 200px;
+
+    /* Manipulate padding - the space between content and border */
+    padding: 0px, 30px, 0px, 30px;
+
+    /* Border */
+    /* Give element / padding an outline */
+    border: 1px solid black;
+    /* change curvature of corners */
+    border-radius: 30px;
+
+    /* Margin */
+    /* Give boundaries to your element */
+    margin: 0px,30px, 0px, 30px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+
+

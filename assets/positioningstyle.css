@@ -1,0 +1,46 @@
+html, body {
+    height: 3000px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.static {
+    position: static;
+    background-color: lightgreen;
+}
+
+.relative {
+    position: relative;
+    top: 50px;
+    left: 200px;
+    background-color: lightsalmon;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    background-color: blueviolet;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    width: 100px;
+    background-color: burlywood;
+}
+
+.divsticky {
+    position: sticky;
+    top: ;
+    background-color: orange;
+}
+
+.inLineBlock div{
+    display: inline-block;
+}
