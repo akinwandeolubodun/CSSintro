@@ -35,12 +35,11 @@ html, body {
     background-color: burlywood;
 }
 
-.divsticky {
+.sticky {
     position: sticky;
-    top: ;
     background-color: orange;
 }
 
-.inLineBlock div{
+.InLineBlocks div{
     display: inline-block;
 }
